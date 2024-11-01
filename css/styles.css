@@ -226,3 +226,12 @@ img {
     height: 44%;
     color: var(--header-color)
 }
+
+footer {
+    display: flex;
+    background-color: var(--main-color);
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    color: var(--header-color)
+}
