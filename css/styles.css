@@ -5,6 +5,7 @@
     --main-color: #1F2937;
     --header-color: #F9FAF8;
     --button-color: #3882F6;
+    --quote-section: #E5E7EB;
 }
 
 * {
@@ -150,7 +151,7 @@ img {
 
 .initial-section {
     margin-top: 3%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,5 +181,21 @@ img {
 }
 
 .box__item p {
-    margin-top: 95%;
+    margin-top: 115%;
+}
+
+
+.quote-section {
+    height: 70vh;
+    background-color: var(--quote-section);
+    font-style: italic;
+    color: var(--main-color);
+    font-size: 36px;
+    padding: 10% 10%;
+}
+
+.quote-section h6 {
+    position: relative;
+    width: 30%;
+    left: 65%;
 }
